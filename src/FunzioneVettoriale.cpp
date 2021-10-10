@@ -13,7 +13,6 @@ VettoreLineare BonnorEbert::Eval(VettoreLineare& y, double csi){
 
 
 Eulero::Eulero(){}
-
 Eulero::~Eulero(){}
 
 VettoreLineare Eulero::Passo(FunzioneVettorialeBase* f, VettoreLineare& y0, double h, double t)const{
@@ -36,3 +35,6 @@ VettoreLineare RungeKutta::Passo(FunzioneVettorialeBase* f, VettoreLineare& y0, 
 	VettoreLineare y = y0 + (k1 + k2*2.+ k3*2. + k4)*(h/6.);
 	return y;
 }
+
+RungeKutta::RungeKutta(){}
+RungeKutta::~RungeKutta(){}
