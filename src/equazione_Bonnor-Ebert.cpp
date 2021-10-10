@@ -1,3 +1,21 @@
+/* Copyright (C) 2021 Matteo Foglieni
+
+This file is part of Bonnor-Ebert.
+
+Bonnor-Ebert is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Bonnor-Ebert is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Bonnor-Ebert.  If not, see <https://www.gnu.org/licenses/>. */
+
+
 #include "VettoreLineare.hpp"
 #include "Vettore.hpp"
 #include "FunzioneVettoriale.hpp"
@@ -80,7 +98,7 @@ int main(int argc, char *argv[]){
 int eulero(argh::parser cmdl){
 	const string programName = cmdl[0];
 	const string actionName = cmdl[1];
-	
+
 	if (cmdl[{"-h", "--help"}]) {
 		cout << HELP_EULERO;
 		return 0;
