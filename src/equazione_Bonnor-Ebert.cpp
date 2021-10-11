@@ -148,10 +148,10 @@ int eulero(argh::parser cmdl){
 	for(int i=0; i<nstep; i++){
 		uscita_Eulero << i 
 			<< "\t "  << csi 
-			<< "\t " << x.getComponent(0) 
-			<< "\t " << x.getComponent(1) 
+			<< "\t " 	<< x.getComponent(0) 
+			<< "\t " 	<< x.getComponent(1) 
 			<< "\t "  << pow(nepier,-csi) 
-			<< "\t "  << -pow(csi, 2.0)*x.getComponent(1) 
+			<< "\t "  << pow(csi, 2.0)*x.getComponent(1) 
 			<< endl;
 		x = myEuler.Passo(BE, x, h, csi);
 		csi += h;
@@ -213,10 +213,10 @@ int rungekutta(argh::parser cmdl){
 	for(int i=0; i<nstep; i++){
 		uscita_RK << i 
 			<< "\t "  << csi 
-			<< "\t " << x.getComponent(0) 
-			<< "\t " << x.getComponent(1) 
+			<< "\t " 	<< x.getComponent(0) 
+			<< "\t " 	<< x.getComponent(1) 
 			<< "\t "  << pow(nepier,-csi) 
-			<< "\t "  << -pow(csi, 2.0)*x.getComponent(1) 
+			<< "\t "  << pow(csi, 2.0)*x.getComponent(1) 
 			<< endl;
 		x = myRK.Passo(BE, x, h, csi);
 		csi += h;
