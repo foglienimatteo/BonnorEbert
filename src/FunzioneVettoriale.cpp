@@ -24,7 +24,7 @@ BonnorEbert:: ~BonnorEbert(){}
 VettoreLineare BonnorEbert::Eval(VettoreLineare& y, double csi){
 	VettoreLineare f(y.getDimension());
 	f.setComponent(0, y.getComponent(1));
-	f.setComponent(1, - pow(2.718281828459, -y.getComponent(0)) - 2 * y.getComponent(1)/csi );
+	f.setComponent(1, pow(2.718281828459, -y.getComponent(0)) - 2 * y.getComponent(1)/csi );
 	return f;
 }
 

@@ -28,7 +28,8 @@ along with Bonnor-Ebert.  If not, see <https://www.gnu.org/licenses/>. */
 
 #include "argh.h"
 
-#define pi 3.141592653589
+#define pi 3.1415926535897932
+#define nepier 2.718281828459045
 
 using namespace std;
 
@@ -80,9 +81,9 @@ int main(int argc, char *argv[]){
 	const string programName = cmdl[0];
 	const string actionName = cmdl[1];
 
-	if (actionName == "Euler") { 
+	if (actionName == "euler") { 
 		return eulero(cmdl);
-	} else if (actionName == "RK") {
+	} else if (actionName == "rungekutta") {
 		return rungekutta(cmdl);
 	} else if (cmdl[{"-h", "--help"}]) {
 		cout << USAGE;
@@ -145,8 +146,13 @@ int eulero(argh::parser cmdl){
 
 	double csi = csi_begin;
 	for(int i=0; i<nstep; i++){
-		uscita_Eulero << i << "\t "  << csi << "\t " << x.getComponent(0) << endl;
-		//uscita_RK << i << "\t "  << csi << "\t " << x.getComponent(0) << endl;
+		uscita_Eulero << i 
+			<< "\t "  << csi 
+			<< "\t " << x.getComponent(0) 
+			<< "\t " << x.getComponent(1) 
+			<< "\t "  << pow(nepier,-csi) 
+			<< "\t "  << -pow(csi, 2.0)*x.getComponent(1) 
+			<< endl;
 		x = myEuler.Passo(BE, x, h, csi);
 		csi += h;
 	}
@@ -205,7 +211,13 @@ int rungekutta(argh::parser cmdl){
 
 	double csi = csi_begin;
 	for(int i=0; i<nstep; i++){
-		uscita_RK << i << "\t "  << csi << "\t " << x.getComponent(0) << endl;
+		uscita_RK << i 
+			<< "\t "  << csi 
+			<< "\t " << x.getComponent(0) 
+			<< "\t " << x.getComponent(1) 
+			<< "\t "  << pow(nepier,-csi) 
+			<< "\t "  << -pow(csi, 2.0)*x.getComponent(1) 
+			<< endl;
 		x = myRK.Passo(BE, x, h, csi);
 		csi += h;
 	}
