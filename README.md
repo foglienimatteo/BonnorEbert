@@ -10,17 +10,36 @@
 
 Bonnor-Ebert is a simple C++ program that solves the Bonnor-Ebert differential equation
 
-![Bonnor-Ebert_equation](rsc/Bonnor-Ebert_equation.png)
+![Bonnor-Ebert_equation](rsc/Bonnor-Ebert_equation.svg)
 
-with this simple sistem:
+with two possible algorithms: Euler and classic Runge-Kutta. The output file `Bonnor-Ebert_Eulero.dat`/ `Bonnor-Ebert_RK.dat` contains also the values of the first derivate `ψ'(ξ)` , concentration parameter `g_0` and `f_0`.
+This data may be easily visualize thanks to the Jupyter Notebook file `Bonnor-Ebert.ipynb`. 
 
-![BE_system](rsc/BE_system.png)
+## Table of contents
+- [Bonnor-Ebert](#bonnor-ebert)
+  - [Table of contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Mathematical treatment](#mathematical-treatment)
+  - [License](#license)
 
-Let's try to write an equation $\alpha$ and $\beta$: 
 
-$$
-\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2 \, \frac{d\psi}{d\xi}\right) = e^{-\psi} 
-$$
+## Requirements
+
+In order to build the software from the source code here provided, you will need:
+* [`cmake`](https://cmake.org/) (version >= 3.12);
+* A `C++17` compiler;
+
+This project uses the header-only [`Argh!`](https://github.com/adishavit/argh) library, which is already included in this repository in `include/argh.h`;therefore, you do not need to install it on your system.
+
+## Mathematical treatment
+
+The original equation can be rewrited in this simple system:
+
+![BE_system](rsc/BE_system.svg)
+
+So, with the basic treatment of the differential equation numerical solutions:
+
+![BE_system](rsc/BE_num-system.svg)
 
 ## License
 
