@@ -8,9 +8,13 @@
 ![Commits](https://img.shields.io/github/commit-activity/m/cosmofico97/BonnorEbert)
 ![Size](https://img.shields.io/github/repo-size/cosmofico97/BonnorEbert)
 
-Bonnor-Ebert is a simple C++ program that solves the Bonnor-Ebert differential equation:
+Bonnor-Ebert is a simple C++ program that solves the Bonnor-Ebert differential equation
 
 ![Bonnor-Ebert_equation](rsc/Bonnor-Ebert_equation.png)
+
+with this simple sistem:
+
+![BE_system](rsc/BE_system.png)
 
 ## License
 
