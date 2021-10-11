@@ -16,6 +16,12 @@ with this simple sistem:
 
 ![BE_system](rsc/BE_system.png)
 
+Let's try to write an equation $\alpha$ and $\beta$: 
+
+$$
+\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2 \, \frac{d\psi}{d\xi}\right) = e^{-\psi} 
+$$
+
 ## License
 
 Bonnor-Ebert is free software, and it is released under version 3 of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
