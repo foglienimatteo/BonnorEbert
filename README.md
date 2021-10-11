@@ -1,4 +1,9 @@
 # Bonnor-Ebert
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 ![Operating Systems](https://img.shields.io/badge/OS-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey)
 ![License](https://img.shields.io/github/license/cosmofico97/BonnorEbert)
 ![Pulls](https://img.shields.io/github/issues-pr/cosmofico97/BonnorEbert)
@@ -21,6 +26,7 @@ This data may be easily visualize thanks to the Jupyter Notebook file `Bonnor-Eb
   - [Requirements](#requirements)
   - [Mathematical treatment](#mathematical-treatment)
   - [License](#license)
+  - [Contributors ✨](#contributors-)
 
 
 ## Requirements
@@ -44,3 +50,26 @@ So, with the basic treatment of the differential equation numerical solutions:
 ## License
 
 Bonnor-Ebert is free software, and it is released under version 3 of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
+
+
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/teozec"><img src="https://avatars.githubusercontent.com/u/44500371?v=4" width="100px;" alt=""/><br /><sub><b>Matteo Zeccoli Marazzini</b></sub></a><br /><a href="#ideas-Matteo-Zeccoli-Marazzini" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tool-Matteo-Zeccoli-Marazzini" title="Tools">🔧</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+

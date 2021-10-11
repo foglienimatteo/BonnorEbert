@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "teozec",
+      "name": "Matteo Zeccoli Marazzini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44500371?v=4",
+      "profile": "https://github.com/teozec",
+      "contributions": [
+        "tool",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "BonnorEbert",
+  "projectOwner": "cosmofico97",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
