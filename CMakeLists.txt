@@ -19,6 +19,7 @@
 # You should always specify a range with the newest
 # and oldest tested versions of CMake. This will ensure
 # you pick up the best policies.
+
 cmake_minimum_required(VERSION 3.12)
 
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR})
