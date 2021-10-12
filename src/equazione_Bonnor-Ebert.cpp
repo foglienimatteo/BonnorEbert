@@ -35,7 +35,6 @@ using namespace std;
 
 #define USAGE \
 	programName << ": a C++ tool to solve the Bonnor-Ebert equation." << endl << endl << \
-	"Usage: " << programName << " [options]" << endl << endl << \
 	"Usage: " << endl << \
 	programName << " -h|--help" << endl << \
 	programName << " euler [options]" << endl << \
