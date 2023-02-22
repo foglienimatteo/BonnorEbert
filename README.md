@@ -5,12 +5,12 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Operating Systems](https://img.shields.io/badge/OS-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey)
-![License](https://img.shields.io/github/license/cosmofico97/BonnorEbert)
-![Pulls](https://img.shields.io/github/issues-pr/cosmofico97/BonnorEbert)
-![Top Language](https://img.shields.io/github/languages/top/cosmofico97/BonnorEbert)
-![Version](https://img.shields.io/github/v/release/cosmofico97/BonnorEbert)
-![Commits](https://img.shields.io/github/commit-activity/m/cosmofico97/BonnorEbert)
-![Size](https://img.shields.io/github/repo-size/cosmofico97/BonnorEbert)
+![License](https://img.shields.io/github/license/foglienimatteo/BonnorEbert)
+![Pulls](https://img.shields.io/github/issues-pr/foglienimatteo/BonnorEbert)
+![Top Language](https://img.shields.io/github/languages/top/foglienimatteo/BonnorEbert)
+![Version](https://img.shields.io/github/v/release/foglienimatteo/BonnorEbert)
+![Commits](https://img.shields.io/github/commit-activity/m/foglienimatteo/BonnorEbert)
+![Size](https://img.shields.io/github/repo-size/foglienimatteo/BonnorEbert)
 
 Bonnor-Ebert is a simple C++ program that solves the Bonnor-Ebert differential equation
 
@@ -44,9 +44,9 @@ This project uses the header-only [`Argh!`](https://github.com/adishavit/argh) l
 
 First of all, copy the source code provided in this repository on your OS. You may clone the repository where it is built in, running in the command line
 ```bash
-git clone https://github.com/cosmofico97/BonnorEbert
+git clone https://github.com/foglienimatteo/BonnorEbert
 ```
-or download the source code from the webpage https://github.com/cosmofico97/BonnorEbert.
+or download the source code from the webpage https://github.com/foglienimatteo/BonnorEbert.
 
 
 Hereafter, run the following shell commands from the project directory:
